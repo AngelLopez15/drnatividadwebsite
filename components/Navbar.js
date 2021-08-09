@@ -44,7 +44,7 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="flex w-full justify-between p-4 shadow-xl sticky top-0 z-10 bg-blue-100 md:flex md:flex-col">
+    <nav className="flex w-full justify-between p-4 shadow-xl sticky top-0 z-10 bg-gray-200 md:flex md:flex-col">
       <div className="md:flex md:w-full md:justify-between md:px-4">
         <Link href="/">
           <a className="px-4 font-semibold text-xl md:py-4">

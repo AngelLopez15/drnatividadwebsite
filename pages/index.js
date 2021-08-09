@@ -7,12 +7,16 @@ export default function Home() {
         <title>Dr. Natividad</title>
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
-      <main className="my-40">
+      <main className="my-20">
         <div className="flex justify-center">
-          <h1 className="text-5xl font-bold text-gray-700 mb-20 linea-decoracion">Dra. Natividad Gutiérrez Chong</h1>
+          <h1 className="text-5xl font-bold text-gray-700 mb-10 linea-decoracion">Dra. Natividad Gutiérrez Chong</h1>
         </div>
         <div className="flex justify-center">
-          <p>foto</p>
+          <div className="w-1/3">
+            <picture>
+              <img className="rounded-md" src="/Natividad.jpg" alt="Fotografía de la Dra. Natividad Gutiérrez Chong" />
+            </picture>
+          </div>
         </div>
       </main>
     </>
