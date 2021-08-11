@@ -7,7 +7,7 @@ export default function Home() {
         <title>Dr. Natividad</title>
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
-      <main className="my-20">
+      <main>
         <div className="flex justify-center">
           <h1 className="text-5xl font-bold text-gray-700 mb-10 linea-decoracion">Dra. Natividad Gutiérrez Chong</h1>
         </div>

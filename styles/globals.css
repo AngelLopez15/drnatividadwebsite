@@ -6,6 +6,29 @@ body {
   background-color: #f4f4f4;
 }
 
+main {
+  @apply my-20 mx-10;
+}
+
+section{
+  @apply my-16;
+}
+
+li {
+  @apply text-xl font-semibold text-gray-600 mb-3;
+}
+
+h2 {
+  @apply text-3xl font-bold text-gray-600 mb-5;
+}
+
+h3 {
+  @apply text-xl font-bold text-gray-600 mb-5;
+}
+
+p {
+  @apply text-xl font-semibold text-gray-600 mb-3;
+}
 /* HAMBURGER MENU */
 .toggle-menu-icon {
   height: 50px;

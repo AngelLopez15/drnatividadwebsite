@@ -49,7 +49,7 @@ export default function Navbar() {
         <Link href="/">
           <a className="px-4 font-semibold text-xl md:py-4">
             {/* <img src='/images/Logo.png' alt="Logo Pluriverso"  onClick={desplegarMenu} /> */}
-            Dr. Natividad
+            Dra. Natividad
           </a>
         </Link>
         <button className="md:block hidden" onClick={desplegarMenu}>
