@@ -9,10 +9,10 @@ export default function Home() {
       </Head>
       <main>
         <div className="flex justify-center">
-          <h1 className="text-5xl font-bold text-gray-700 mb-10 linea-decoracion">Dra. Natividad Gutiérrez Chong</h1>
+          <h1 className="text-5xl font-bold text-gray-700 mb-10 linea-decoracion md:text-xl">Dra. Natividad Gutiérrez Chong</h1>
         </div>
         <div className="flex justify-center">
-          <div className="w-1/3">
+          <div className="w-1/3 md:w-full">
             <picture>
               <img className="rounded-md" src="/Natividad.jpg" alt="Fotografía de la Dra. Natividad Gutiérrez Chong" />
             </picture>

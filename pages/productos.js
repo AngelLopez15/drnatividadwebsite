@@ -2,7 +2,7 @@ export default function productos() {
   return (
     <main>
       <div className="flex justify-center">
-        <h1 className="text-5xl font-bold text-gray-700 mb-10 linea-decoracion">Productos digitales</h1>
+        <h1 className="text-5xl font-bold text-gray-700 mb-10 linea-decoracion md:text-3xl">Productos digitales</h1>
       </div>
       <section>
         <div>
