@@ -33,6 +33,9 @@ export default function trayectoria() {
             <li className="text-justify">Nivel en el PRIDE-UNAM “D”</li>
             <li className="text-justify">Miembro del Sistema Nacional de Investigadores Nivel III</li>
             <li className="text-justify">Miembro de la Academia Mexicana de Ciencias desde 1998</li>
+            <li className="text-justify">Coordinadora del Colegio de Desarrollo y Gestión Interculturales</li>
+            <li className="text-justify">Facultad de Filosofía y Letras</li>
+            <li className="text-justify">Universidad Nacional Autónoma de México</li>
           </ul>
         </section>
         <section>
@@ -56,6 +59,7 @@ export default function trayectoria() {
           <li className="text-justify">Afectación de intereses étnicos y neoliberalismo. PAPIIT DGAPA-UNAM IN 301219.</li>
           <li className="text-justify">Plataforma digital sobre estudios sobre la diversidad cultural en México. PAPIME DGAPA-UNAM PE 404617.</li>
           <li className="text-justify">Jóvenes de identidades diversas en dinámicas metropolitanas Proyecto CONACYT 2368. Liderazgos indígenas y conflictos étnicos.</li>
+          <li className="text-justify">Liderazgos indígenas y conflictos étnicos.</li>
           <li className="text-justify">Racismo y discriminación en la era del multiculturalismo. Bolsa de investigación. IISUNAM.</li>
         </ul>
       </section>

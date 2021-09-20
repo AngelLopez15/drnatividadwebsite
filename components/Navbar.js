@@ -11,11 +11,21 @@ export default function Navbar() {
     },
     {
       id: '2',
-      title: 'Bibliografía Visual',
-      link: 'bibliografia',
+      title: 'Curriculum vitae',
+      link: 'cv',
     },
     {
       id: '3',
+      title: 'Biografía Visual',
+      link: 'Biografía',
+    },
+    {
+      id: '4',
+      title: 'Publicaciones',
+      link: 'publicaciones',
+    },
+    {
+      id: '5',
       title: 'Productos Digitales',
       link: 'productos',
     },
@@ -85,9 +95,9 @@ export default function Navbar() {
               </li>
             ))
           }
-          {/* <li className="px-4 font-semibold text-xl md:py-4" onClick={desplegarMenu}>
-            <a target="_blank" rel="noopener noreferrer" href="https://pluriversodigital.medium.com/">Blog</a>
-          </li> */}
+          <li className="px-4 font-semibold text-xl md:py-4" onClick={desplegarMenu}>
+            <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@natividadgutierrezchong">Blog</a>
+          </li>
         </ul>
       </div>
     </nav>
