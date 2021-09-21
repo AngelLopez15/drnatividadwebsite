@@ -11,13 +11,13 @@ export default function Navbar() {
     },
     {
       id: '2',
-      title: 'Curriculum vitae',
+      title: 'Curriculum Vitae',
       link: 'cv',
     },
     {
       id: '3',
       title: 'Biografía Visual',
-      link: 'Biografía',
+      link: 'biografia',
     },
     {
       id: '4',
