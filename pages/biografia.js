@@ -4,7 +4,7 @@ export default function biografia() {
 
   const inspiracion = [
     {
-      src: "/biografia/inspiracion/inspiracion1.JPG",
+      src: "/biografia/inspiracion/inspiracion1.jpg",
       width: 7,
       height: 3
     },
@@ -14,7 +14,7 @@ export default function biografia() {
       height: 3
     },
     {
-      src: "/biografia/inspiracion/inspiracion3.JPG",
+      src: "/biografia/inspiracion/inspiracion3.jpg",
       width: 6,
       height: 3
     },
@@ -29,7 +29,7 @@ export default function biografia() {
       height: 3
     },
     {
-      src: "/biografia/inspiracion/inspiracion6.JPG",
+      src: "/biografia/inspiracion/inspiracion6.jpg",
       width: 6,
       height: 3
     },
@@ -39,7 +39,7 @@ export default function biografia() {
       height: 3
     },
     {
-      src: "/biografia/inspiracion/inspiracion9.JPG",
+      src: "/biografia/inspiracion/inspiracion9.jpg",
       width: 6,
       height: 3
     },
@@ -87,7 +87,7 @@ export default function biografia() {
       height: 3
     },
     {
-      src: "/biografia/aulas/aulas7.JPG",
+      src: "/biografia/aulas/aulas7.jpg",
       width: 8,
       height: 3
     },
