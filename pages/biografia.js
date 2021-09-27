@@ -87,7 +87,7 @@ export default function biografia() {
       height: 3
     },
     {
-      src: "/biografia/aulas/aulas7.jpg",
+      src: "/biografia/aulas/aulas7.webp",
       width: 8,
       height: 3
     },
