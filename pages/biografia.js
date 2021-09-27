@@ -14,7 +14,7 @@ export default function biografia() {
       height: 3
     },
     {
-      src: "/biografia/inspiracion/inspiracion3.jpg",
+      src: "/biografia/inspiracion/inspiracion3.webp",
       width: 6,
       height: 3
     },
@@ -29,7 +29,7 @@ export default function biografia() {
       height: 3
     },
     {
-      src: "/biografia/inspiracion/inspiracion6.jpg",
+      src: "/biografia/inspiracion/inspiracion6.webp",
       width: 6,
       height: 3
     },
@@ -39,7 +39,7 @@ export default function biografia() {
       height: 3
     },
     {
-      src: "/biografia/inspiracion/inspiracion9.jpg",
+      src: "/biografia/inspiracion/inspiracion9.webp",
       width: 6,
       height: 3
     },
