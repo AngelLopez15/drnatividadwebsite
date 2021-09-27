@@ -118,144 +118,210 @@ export default function publicaciones() {
         <h1 className="text-5xl font-bold text-gray-700 mb-10 linea-decoracion md:mb-0 md:text-3xl">Publicaciones</h1>
       </div>
       <section>
-        <h2>2021</h2>
-        <div>
+        <h2 className="text-center">2021</h2>
+        <div className="flex justify-around flex-wrap">
           {
             libros2021.map((item) => (
-              <article key={item.id}>
-                <picture>
-                  <img className="rounded-md" src={item.portada} alt={item.titulo} />
-                </picture>
-                <p>{item.titulo}</p>
-                <a target="_blank" rel="noopener noreferrer" href={item.url} >Descargar</a>
+              <article className="bg-white w-96 rounded-md shadow-lg flex justify-center p-4 m-4" key={item.id}>
+                <div>
+                  <div className="overflow-hidden flex justify-center w-80">
+                    <picture>
+                      <img className="rounded-md" src={item.portada} alt={item.titulo} />
+                    </picture>
+                  </div>
+                  <p className="text-center">{item.titulo}</p>
+                  <div className="flex justify-center">
+                    <a className="bg-blue-200 px-8 py-2 rounded-md shadow-md font-semibold" target="_blank" rel="noopener noreferrer" href={item.url} >Descargar</a>
+                  </div>
+                </div>
               </article>
             ))
           }
         </div>
       </section>
       <section>
-        <h2>2020</h2>
-        <div>
+        <h2 className="text-center">2020</h2>
+        <div className="flex justify-around flex-wrap">
           {
             libros2020.map((item) => (
-              <article key={item.id}>
-                <picture>
-                  <img className="rounded-md" src={item.portada} alt={item.titulo} />
-                </picture>
-                <p>{item.titulo}</p>
-                <a target="_blank" rel="noopener noreferrer" href={item.url} >Descargar</a>
+              <article className="bg-white w-96 rounded-md shadow-lg flex justify-center p-4 m-4" key={item.id}>
+                <div>
+                  <div className="overflow-hidden flex justify-center w-80">
+                    <picture>
+                      <img className="rounded-md" src={item.portada} alt={item.titulo} />
+                    </picture>
+                  </div>
+                  <p className="text-center">{item.titulo}</p>
+                  <div className="flex justify-center">
+                    <a className="bg-blue-200 px-8 py-2 rounded-md shadow-md font-semibold" target="_blank" rel="noopener noreferrer" href={item.url} >Descargar</a>
+                  </div>
+                </div>
               </article>
             ))
           }
         </div>
       </section>
       <section>
-        <h2>2019</h2>
-        <div>
+        <h2 className="text-center">2019</h2>
+        <div className="flex justify-around flex-wrap">
           {
             libros2019.map((item) => (
-              <article key={item.id}>
-                <picture>
-                  <img className="rounded-md" src={item.portada} alt={item.titulo} />
-                </picture>
-                <p>{item.titulo}</p>
-                <a target="_blank" rel="noopener noreferrer" href={item.url} >Descargar</a>
+              <article className="bg-white w-96 rounded-md shadow-lg flex justify-center p-4 m-4" key={item.id}>
+                <div>
+                  <div className="overflow-hidden flex justify-center w-80">
+                    <picture>
+                      <img className="rounded-md" src={item.portada} alt={item.titulo} />
+                    </picture>
+                  </div>
+                  <p className="text-center">{item.titulo}</p>
+                  <div className="flex justify-center">
+                    <a className="bg-blue-200 px-8 py-2 rounded-md shadow-md font-semibold" target="_blank" rel="noopener noreferrer" href={item.url} >Descargar</a>
+                  </div>
+                </div>
               </article>
             ))
           }
         </div>
       </section>
       <section>
-        <h2>2015</h2>
-        <div>
+        <h2 className="text-center">2015</h2>
+        <div className="flex justify-around flex-wrap">
           {
             libros2015.map((item) => (
-              <article key={item.id}>
-                <picture>
-                  <img className="rounded-md" src={item.portada} alt={item.titulo} />
-                </picture>
-                <p>{item.titulo}</p>
-                <a target="_blank" rel="noopener noreferrer" href={item.url} >Descargar</a>
+              <article className="bg-white w-96 rounded-md shadow-lg flex justify-center p-4 m-4" key={item.id}>
+                <div>
+                  <div className="flex justify-center">
+                    <div className="overflow-hidden w-60">
+                      <picture>
+                        <img className="rounded-md" src={item.portada} alt={item.titulo} />
+                      </picture>
+                    </div>
+                  </div>
+                  <p className="text-center">{item.titulo}</p>
+                  <div className="flex justify-center">
+                    <a className="bg-blue-200 px-8 py-2 rounded-md shadow-md font-semibold" target="_blank" rel="noopener noreferrer" href={item.url} >Descargar</a>
+                  </div>
+                </div>
               </article>
             ))
           }
         </div>
       </section>
       <section>
-        <h2>2013</h2>
-        <div>
+        <h2 className="text-center">2013</h2>
+        <div className="flex justify-around flex-wrap">
           {
             libros2013.map((item) => (
-              <article key={item.id}>
-                <picture>
-                  <img className="rounded-md" src={item.portada} alt={item.titulo} />
-                </picture>
-                <p>{item.titulo}</p>
-                <a target="_blank" rel="noopener noreferrer" href={item.url} >Descargar</a>
+              <article className="bg-white w-96 rounded-md shadow-lg flex justify-center p-4 m-4" key={item.id}>
+                <div>
+                  <div className="flex justify-center">
+                    <div className="overflow-hidden w-60">
+                      <picture>
+                        <img className="rounded-md" src={item.portada} alt={item.titulo} />
+                      </picture>
+                    </div>
+                  </div>
+                  <p className="text-center">{item.titulo}</p>
+                  <div className="flex justify-center">
+                    <a className="bg-blue-200 px-8 py-2 rounded-md shadow-md font-semibold" target="_blank" rel="noopener noreferrer" href={item.url} >Descargar</a>
+                  </div>
+                </div>
               </article>
             ))
           }
         </div>
       </section>
       <section>
-        <h2>2012</h2>
-        <div>
+        <h2 className="text-center">2012</h2>
+        <div className="flex justify-around flex-wrap">
           {
             libros2012.map((item) => (
-              <article key={item.id}>
-                <picture>
-                  <img className="rounded-md" src={item.portada} alt={item.titulo} />
-                </picture>
-                <p>{item.titulo}</p>
-                <a target="_blank" rel="noopener noreferrer" href={item.url} >Descargar</a>
+              <article className="bg-white w-96 rounded-md shadow-lg flex justify-center p-4 m-4" key={item.id}>
+                <div>
+                  <div className="flex justify-center">
+                    <div className="overflow-hidden w-60">
+                      <picture>
+                        <img className="rounded-md" src={item.portada} alt={item.titulo} />
+                      </picture>
+                    </div>
+                  </div>
+                  <p className="text-center">{item.titulo}</p>
+                  <div className="flex justify-center">
+                    <a className="bg-blue-200 px-8 py-2 rounded-md shadow-md font-semibold" target="_blank" rel="noopener noreferrer" href={item.url} >Descargar</a>
+                  </div>
+                </div>
               </article>
             ))
           }
         </div>
       </section>
       <section>
-        <h2>2010</h2>
-        <div>
+        <h2 className="text-center">2010</h2>
+        <div className="flex justify-around flex-wrap">
           {
             libros2010.map((item) => (
-              <article key={item.id}>
-                <picture>
-                  <img className="rounded-md" src={item.portada} alt={item.titulo} />
-                </picture>
-                <p>{item.titulo}</p>
-                <a target="_blank" rel="noopener noreferrer" href={item.url} >Descargar</a>
+              <article className="bg-white w-96 rounded-md shadow-lg flex justify-center p-4 m-4" key={item.id}>
+                <div>
+                  <div className="flex justify-center">
+                    <div className="overflow-hidden w-60">
+                      <picture>
+                        <img className="rounded-md" src={item.portada} alt={item.titulo} />
+                      </picture>
+                    </div>
+                  </div>
+                  <p className="text-center">{item.titulo}</p>
+                  <div className="flex justify-center">
+                    <a className="bg-blue-200 px-8 py-2 rounded-md shadow-md font-semibold" target="_blank" rel="noopener noreferrer" href={item.url} >Descargar</a>
+                  </div>
+                </div>
               </article>
             ))
           }
         </div>
       </section>
       <section>
-        <h2>2009</h2>
-        <div>
+        <h2 className="text-center">2009</h2>
+        <div className="flex justify-around flex-wrap">
           {
             libros2009.map((item) => (
-              <article key={item.id}>
-                <picture>
-                  <img className="rounded-md" src={item.portada} alt={item.titulo} />
-                </picture>
-                <p>{item.titulo}</p>
-                <a target="_blank" rel="noopener noreferrer" href={item.url} >Descargar</a>
+              <article className="bg-white w-96 rounded-md shadow-lg flex justify-center p-4 m-4" key={item.id}>
+                <div>
+                  <div className="flex justify-center">
+                    <div className="overflow-hidden flex justify-center w-60">
+                      <picture>
+                        <img className="rounded-md" src={item.portada} alt={item.titulo} />
+                      </picture>
+                    </div>
+                  </div>
+                  <p className="text-center">{item.titulo}</p>
+                  <div className="flex justify-center">
+                    <a className="bg-blue-200 px-8 py-2 rounded-md shadow-md font-semibold" target="_blank" rel="noopener noreferrer" href={item.url} >Descargar</a>
+                  </div>
+                </div>
               </article>
             ))
           }
         </div>
       </section>
       <section>
-        <h2>2004</h2>
-        <div>
+        <h2 className="text-center">2004</h2>
+        <div className="flex justify-around flex-wrap">
           {
             libros2004.map((item) => (
-              <article key={item.id}>
-                <picture>
-                  <img className="rounded-md" src={item.portada} alt={item.titulo} />
-                </picture>
-                <p>{item.titulo}</p>
-                <a target="_blank" rel="noopener noreferrer" href={item.url} >Descargar</a>
+              <article className="bg-white w-96 rounded-md shadow-lg flex justify-center p-4 m-4" key={item.id}>
+                <div>
+                  <div className="flex justify-center">
+                    <div className="overflow-hidden flex justify-center w-60">
+                      <picture>
+                        <img className="rounded-md" src={item.portada} alt={item.titulo} />
+                      </picture>
+                    </div>
+                  </div>
+                  <p className="text-center">{item.titulo}</p>
+                  <div className="flex justify-center">
+                    <a className="bg-blue-200 px-8 py-2 rounded-md shadow-md font-semibold" target="_blank" rel="noopener noreferrer" href={item.url} >Descargar</a>
+                  </div>
+                </div>
               </article>
             ))
           }
