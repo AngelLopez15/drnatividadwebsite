@@ -4,7 +4,7 @@ export default function biografia() {
 
   const inspiracion = [
     {
-      src: "/biografia/inspiracion/inspiracion1.jpg",
+      src: "/biografia/inspiracion/inspiracion1.webp",
       width: 7,
       height: 3
     },
