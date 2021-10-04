@@ -9,7 +9,7 @@ export default function Home() {
       </Head>
       <main>
         <div className="flex justify-center">
-          <h1 className="text-5xl font-bold text-gray-700 mb-5 linea-decoracion md:text-xl">Dra. Natividad Gutiérrez Chong</h1>
+          <h1 className="text-5xl font-bold text-gray-700 mb-5 linea-decoracion md:text-xl">Natividad Gutiérrez Chong</h1>
         </div>
         <div className="flex justify-center">
           <div className="w-1/5 md:w-full">

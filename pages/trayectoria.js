@@ -16,8 +16,8 @@ export default function trayectoria() {
           <div className="w-1/2 px-8 md:px-2 md:w-full">
             <h2>Estudios</h2>
             <ul className="list-inside list-disc">
-              <li className="text-justify mb-8">Doctora en Sociología (PhD). The London School of Economics and Political Science, Universidad de Londres.</li>
-              <li className="text-justify mb-8">Maestra en Sociología (MSc). The London School of Economics and Political Science, Universidad de Londres.</li>
+              <li className="text-justify mb-8">Doctora en Sociología (PhD). The London School of Economics and Political Science, Universidad de Londres, Reino Unido.</li>
+              <li className="text-justify mb-8">Maestra en Sociología (MSc). The London School of Economics and Political Science, Universidad de Londres, Reino Unido.</li>
               <li className="text-justify">Licenciada en Sociología. Facultad de Ciencias Políticas y Sociales, Universidad Nacional Autónoma de México.</li>
             </ul>
           </div>
@@ -26,15 +26,9 @@ export default function trayectoria() {
       <section>
         <h2>Adscripción</h2>
         <ul className="list-inside list-disc">
-          <li className="text-justify">Investigadora de Tiempo Completo Titular “C” </li>
-          <li className="text-justify">Instituto de Investigaciones Sociales</li>
-          <li className="text-justify">Universidad Nacional Autónoma de México</li>
-          <li className="text-justify">Nivel en el PRIDE-UNAM “D”</li>
-          <li className="text-justify">Miembro del Sistema Nacional de Investigadores Nivel III</li>
-          <li className="text-justify">Miembro de la Academia Mexicana de Ciencias desde 1998</li>
-          <li className="text-justify">Coordinadora del Colegio de Desarrollo y Gestión Interculturales</li>
-          <li className="text-justify">Facultad de Filosofía y Letras</li>
-          <li className="text-justify">Universidad Nacional Autónoma de México</li>
+          <li className="text-justify">Investigadora de Tiempo Completo Titular “C” Instituto de Investigaciones Sociales Universidad Nacional Autónoma de México, Nivel en el PRIDE-UNAM “D”</li>
+          <li className="text-justify">Miembro del Sistema Nacional de Investigadores Nivel III, Miembro de la Academia Mexicana de Ciencias desde 1998</li>
+          <li className="text-justify">Coordinadora del Colegio de Desarrollo y Gestión Interculturales Facultad de Filosofía y Letras, Universidad Nacional Autónoma de México</li>
         </ul>
       </section>
       <section>
